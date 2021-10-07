@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+a{
+  text-decoration: none;  
+}
+
+body{
+    background-color: #F3F3EE;
+    font-family: sans-serif;
+}
+
+.sky_bar{
+    width: 100%;
+    height: 10px;
+    background-color: #1b1b1b;
+}
+
+.back{
+    margin: 3rem 7rem;
+}
+
+.top{
+    margin-bottom: 1.5rem;
+}
+
+.menu_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #D8DAC9;
+}
+
+.menu a{
+    padding: 13px 20px 13px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #21718D;
+    border-left: 1.5px solid #D8DAC9;
+}
+
+.menu :last-child {
+    border-right: 1.5px solid #D8DAC9;
+    
+}
+
+.icon_box i {
+    color: #21718D;
+    border-left: 1.5px solid #D8DAC9;
+    font-size: 20px;
+    padding: 6px 13px 13px;
+}
+
+.menu_box {
+    border-right: 1.5px solid #D8DAC9; 
+}
+
+.top a{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+.top span {
+    font-style: italic;
+    color: #7EA684;
+    font-size: 14px;
+}
