@@ -1,6 +1,6 @@
 ### 원본화면
 
-![src](screenshot/colly_1476x768_full.png?raw=true)
+![src](screenshot/colly_1476x760_full.png?raw=true)
 
 ![src](screenshot/colly_470x314_mob.png?raw=true)
 
