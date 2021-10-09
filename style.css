@@ -31,34 +31,63 @@ body{
 
 .menu_box {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     border-top: 2px solid #D8DAC9;
 }
 
-.menu a{
+.menu li {
+    float: left;
     padding: 13px 20px 13px;
-    font-size: 0.8em;
-    font-weight: bold;
-    color: #21718D;
-    border-left: 1.5px solid #D8DAC9;
+    border-left: 1px solid #D8DAC9;
 }
 
-.menu :last-child {
-    border-right: 1.5px solid #D8DAC9;
+.menu :nth-child(5) {
+    border-right: 1px solid #D8DAC9;
     
 }
 
-.icon_box i {
+.menu li a {
+    font-size: 0.8em;
+    font-weight: bold;
     color: #21718D;
-    border-left: 1.5px solid #D8DAC9;
-    font-size: 20px;
-    padding: 6px 13px 13px;
+   
+}
+.ab{
+    position: relative;;
+}
+.mob_icon{
+    display: grid;
+    grid-template-columns: 2rem 2rem;
+    position: absolute;
+    right: 1rem;
+    bottom: -1rem;
+
+}
+.mob_icon i{
+    color: #21718D;
+    font-size: 16px;
+    padding: 6px 6px ;
+
 }
 
-.menu_box {
-    border-right: 1.5px solid #D8DAC9; 
+.icon_box :nth-child(4){
+    border-right: 1px solid #D8DAC9;
+
+}
+ 
+ .icon_box{
+     display: flex;
+     
+ }
+ .icon_box li {
+    border-left: 1.5px solid #D8DAC9;
+    padding: 6px 13px 13px;
+ }
+
+.icon_box i {
+    color: #21718D;
+    font-size: 20px;
 }
 
 .top a{
@@ -72,4 +101,29 @@ body{
     font-style: italic;
     color: #7EA684;
     font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .back {
+        margin: 3rem 3rem;
+    }
+}
+@media screen and (min-width:777px) {
+    .mob_icon{
+        display: none;
+    }
+}
+@media screen and (max-width: 776px) {
+    .icon_box {
+        display:none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .manu {
+        border-right: none;
+    }
 }
